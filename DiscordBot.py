@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import json
+import re
 
 bot = commands.Bot(command_prefix="!")
 bot.remove_command("help")
